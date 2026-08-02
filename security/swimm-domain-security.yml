@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: swimm.io
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 23 10:15:33 2026 GMT
+  hsts: false
+domains:
+- domain: swimm.io
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

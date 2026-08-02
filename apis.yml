@@ -1,8 +1,26 @@
 aid: swimm
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swimm.png
 name: Swimm
-description: 'Swimm is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: devops. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Swimm is a codebase-understanding and modernization platform that combines deterministic
+  static analysis, AI agents, and senior engineers to help teams understand, document, and safely transform
+  large or legacy codebases. Its core product is an AI coding assistant that helps developers understand
+  complex code and capture that knowledge as code-coupled documentation that stays in sync with the source,
+  with IDE integrations, CI verification, and an agentic context layer that feeds validated knowledge to
+  tools like Copilot, Cursor, and Claude Code. Swimm also runs large-scale modernization engagements (.NET,
+  Java, monolith-to-microservices, and mainframe/COBOL). Swimm publishes product documentation, a getting-started
+  guide, IDE and CI integrations, and a GitHub organization, but does not expose a public REST/developer
+  API, SDK packages, or OpenAPI specification at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/swimm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Devops
+- Documentation
+- Developer Tools
+- Code Modernization
+- Artificial Intelligence
+- Knowledge Management
+- Legacy Modernization
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,28 @@ maintainers:
 common:
 - type: Website
   url: https://swimm.io/
+- type: DeveloperPortal
+  url: https://docs.swimm.io/
+- type: Documentation
+  url: https://docs.swimm.io/
+- type: GettingStarted
+  url: https://docs.swimm.io/getting-started-guide/
+- type: Support
+  url: https://docs.swimm.io/support/
+- type: Blog
+  url: https://swimm.io/blog
+- type: GitHubOrganization
+  url: https://github.com/swimmio
+- type: TermsOfService
+  url: https://swimm.io/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://swimm.io/legal/privacy-policy
+- type: Compliance
+  url: https://swimm.io/legal/service-organization-control-soc-2
+- type: DomainSecurity
+  url: security/swimm-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

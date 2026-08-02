@@ -1,0 +1,21 @@
+{
+  "repo": "swimm",
+  "feeds": [
+    {
+      "source": "https://docs.swimm.io/changelog/rss.xml",
+      "feed_url": "https://docs.swimm.io/changelog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://docs.swimm.io/support/",
+      "feed_url": "https://docs.swimm.io/changelog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 20,
+  "fetched": "2026-08-01T15:49:00Z"
+}
