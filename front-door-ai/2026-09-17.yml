@@ -1,0 +1,33 @@
+# Front Door AI Index — swimm — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: swimm
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: swimm.io
+  final_host: swimm.io
+  ownership: own
+  owner: swimm
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 24
+  host_score: 24
+  density: 28.54
+  words: 841
+  tiers:
+    agentic: 10
+    core: 13
+    model: 1
+  ambiguous: 4
+  top_terms:
+    AI: 11
+    agentic: 5
+    agent: 4
+    AI agent: 2
+    MCP: 2
+    Claude: 1
+    LLMs: 1
+    copilot: 1
+    gen ai: 1
