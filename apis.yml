@@ -49,7 +49,7 @@ tags:
 - Developer Tools
 - Code Modernization
 - Artificial Intelligence
-- Knowledge-Management
+- Knowledge Management
 - Legacy Modernization
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Artificial Intelligence
 - Knowledge Management
 - Legacy Modernization
+- Knowledge-Management
 apis: []
 maintainers:
 - FN: Kin Lane
