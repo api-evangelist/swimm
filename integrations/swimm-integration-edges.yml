@@ -1,0 +1,84 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- https://github.com/marketplace?type=actions
+- https://github.com/marketplace?type=apps
+- https://marketplace.visualstudio.com/vscode
+- https://plugins.jetbrains.com/
+marketplace_apps: []
+edges:
+- partner_name: GitHub Marketplace (apps)
+  partner: github
+  partner_match: aggregator
+  type: marketplace
+  marketplace: github-apps
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://github.com/marketplace/swimm-io
+  listing_count: 1
+  apps:
+  - Swimm Documentation
+  publisher_name: Swimm
+  badges:
+  - Verified creator
+  - Verified domain
+  detected_by: sweep-devtools.py
+  detected: '2026-10-14'
+- partner_name: GitHub Marketplace (actions)
+  partner: github-actions
+  partner_match: aggregator
+  type: marketplace
+  marketplace: github-actions
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://github.com/marketplace/actions/swimm-verify
+  listing_count: 1
+  apps:
+  - Swimm Verify
+  publisher_name: Swimm
+  badges:
+  - Verified creator
+  detected_by: sweep-devtools.py
+  detected: '2026-10-14'
+- partner_name: JetBrains Marketplace
+  partner: jetbrains
+  partner_match: aggregator
+  type: marketplace
+  marketplace: jetbrains
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://plugins.jetbrains.com/vendor/Swimm
+  listing_count: 1
+  apps:
+  - 'Swimm: Application Understanding Platform'
+  publisher_name: Swimm
+  badges:
+  - Verified vendor
+  detected_by: sweep-devtools.py
+  detected: '2026-10-14'
+- partner_name: Visual Studio Code Marketplace
+  partner: vs-code-marketplace
+  partner_match: aggregator
+  type: marketplace
+  marketplace: vscode
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://marketplace.visualstudio.com/publishers/Swimm
+  listing_count: 1
+  apps:
+  - 'Swimm: Application Understanding Platform'
+  publisher_name: Swimm
+  badges:
+  - Verified publisher
+  - Verified domain
+  detected_by: sweep-devtools.py
+  detected: '2026-10-14'
+source:
+- https://github.com/marketplace?type=actions
+- https://github.com/marketplace?type=apps
+- https://marketplace.visualstudio.com/vscode
+- https://plugins.jetbrains.com/
